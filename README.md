@@ -3,21 +3,21 @@ A robust, console-based recreation of the classic Pac-Man game. This project foc
 
 # Technical Architecture:
 The project follows a modular class structure:
-# Main: 
+# Main
 The game engine handling the input loop and execution.
-# GameBoard: 
+# GameBoard
 Manages the environment, grid layout, and food tracking.
-# Pacman & Ghost: 
+# Pacman & Ghost 
 Encapsulated entities for the player and enemy.
-# MovementController:
+# MovementController
 A shared utility to validate coordinates before movement.
-# Position: 
+# Position
 A helper class for managing $x, y$ (Row/Col) coordinates.
 
 # Future Roadmap:
-# Pathfinding:  
+# Pathfinding 
 Moving from Greedy Pursuit to A Search* for smarter AI.
-# Serialization: 
+# Serialization
 Saving high scores to a local file using Java I/O.
 
 # Setup:
